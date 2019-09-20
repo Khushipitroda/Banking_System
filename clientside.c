@@ -6,7 +6,6 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-
 #define RESPONSE_BYTES 512
 #define REQUEST_BYTES 512
 

@@ -16,6 +16,7 @@
 #define linesInMS 5
 #define EXIT -1
 
+
 void sendMsgtoClient(int clientFD, char *str) {
     int numPacketsToSend = (strlen(str)-1)/RESPONSE_BYTES + 1;
     int n = write(clientFD, &numPacketsToSend, sizeof(int));
