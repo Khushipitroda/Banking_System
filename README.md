@@ -29,5 +29,5 @@ The format is
 ```
 $USERNAME $PASSWORD $AUTH_TYPE
 ```
-where AUTH_TYPE can be **A** for admin, **P** for police and **C** for customers.
+Where AUTH_TYPE can be **A** for admin, **P** for police and **C** for customers.
 
